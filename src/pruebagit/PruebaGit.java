@@ -5,6 +5,8 @@
  */
 package pruebagit;
 
+import Analizador.*;
+
 /**
  *
  * @author Solares
@@ -15,7 +17,11 @@ public class PruebaGit {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        Circulo c = new  Circulo(15);
+        System.out.println("El area del circulo es: "+c.area());
+        
+        
     }
     
 }

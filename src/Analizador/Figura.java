@@ -7,10 +7,14 @@ package Analizador;
 public class Figura {
     
     int a;
-    public Figura() {
-        a = 20;
+   
+    public Figura(int a) {
+        this.a = a;
     }
     
+    public int RetornarA (){
+        return a;
+    }
     
     
 }
